@@ -1,0 +1,17 @@
+.card-input {
+  margin-bottom: 15px;
+}
+
+.card-input__input {
+  width: 100%;
+  padding: 10px;
+  background-color: #121212;
+  color: #f5f5f5;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.card-input__input::placeholder {
+  color: #aaaaaa;
+}

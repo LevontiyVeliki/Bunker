@@ -1,0 +1,19 @@
+.card-button {
+  background-color: #ff6a00;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:disabled {
+  background-color: #a34800;
+  cursor: not-allowed;
+}
+
+.card-button:hover:not(:disabled) {
+  background-color: #ff8c42;
+}

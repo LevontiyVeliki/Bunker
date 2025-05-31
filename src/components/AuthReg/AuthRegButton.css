@@ -1,0 +1,21 @@
+.reg__button {
+  background-color: #FFA500;
+  color: #121212;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.reg__button:hover {
+  background-color: #ff8c00;
+}
+
+.reg__button:disabled {
+  background-color: #444;
+  color: #999;
+  cursor: not-allowed;
+}

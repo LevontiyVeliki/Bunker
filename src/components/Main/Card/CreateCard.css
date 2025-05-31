@@ -1,0 +1,13 @@
+.createCard {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255, 106, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.createCard__heading {
+  color: #ff6a00;
+  margin-bottom: 20px;
+}
